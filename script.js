@@ -1,12 +1,13 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 24 - Sum up to n terms
+// Question - 25 - Sum of Even And Odd Seperately 
 
-let n = 10
-let sum = 0
+let n = 10;
+let even = 0; 
+let odd = 0;
 
-for(i = 0 ; i<=n ; i++){
-    sum+=i
-    console.log(sum)
+for(let i=0;i<=n;i++){
+    (i%2==0)? even+=i:odd+=i
+    console.log(even,odd)   
 }
