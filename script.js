@@ -1,12 +1,10 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 21 - Natural number up to n 
+// Question - 22 - Reverse n to 1 
 
-
-let n = 5
-
-for (i=1 ; i<=n ; i++){
+n = 5 
+for (i=n;i>=1; i--){
     console.log(i)
 }
 
