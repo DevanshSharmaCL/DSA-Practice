@@ -1,13 +1,13 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 25 - Sum of Even And Odd Seperately 
+// Question - 26 - Print All the factor of a Number
 
-let n = 10;
-let even = 0; 
-let odd = 0;
 
-for(let i=0;i<=n;i++){
-    (i%2==0)? even+=i:odd+=i
-    console.log(even,odd)   
+let n = 18
+
+for (let i = 0 ; i<=n; i++){
+    if(n%i==0){
+        console.log(i)
+    }
 }
