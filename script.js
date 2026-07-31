@@ -1,11 +1,11 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 22 - Reverse n to 1 
+// Question - 23 - Multiplication Table
 
-n = 5 
-for (i=n;i>=1; i--){
-    console.log(i)
+n = 7 
+for(let i = 1 ; i<=10;i++){
+    // n = i*n
+
+    console.log(n*i)
 }
-
-
