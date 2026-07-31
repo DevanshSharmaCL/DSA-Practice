@@ -1,9 +1,13 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 20 - Print Hello  n times 
+// Question - 21 - Natural number up to n 
+
 
 let n = 5
-for(let i=0;i<n;i++){
-    console.log("Hello")
+
+for (i=1 ; i<=n ; i++){
+    console.log(i)
 }
+
+
