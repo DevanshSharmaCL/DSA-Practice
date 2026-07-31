@@ -1,11 +1,12 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 23 - Multiplication Table
+// Question - 24 - Sum up to n terms
 
-n = 7 
-for(let i = 1 ; i<=10;i++){
-    // n = i*n
+let n = 10
+let sum = 0
 
-    console.log(n*i)
+for(i = 0 ; i<=n ; i++){
+    sum+=i
+    console.log(sum)
 }
