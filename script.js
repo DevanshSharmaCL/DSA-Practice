@@ -1,9 +1,12 @@
 const prompt = require("prompt-sync")();
 
 
-// Question - 29 -  power of a number
+// Question - 30 - Print Each Digit of a number
 
-let a = 2 
-let b = 10 
-let result = a**b
-console.log(result)
+let num = 456 
+let numStr = num.toString().split('');
+console.log(numStr)
+
+for(let i = 0 ; i <numStr.length; i++){
+    console.log(numStr[i])
+}
